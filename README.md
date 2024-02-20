@@ -5,7 +5,7 @@ Each thread which each generate a random number between 0 and 9999 repeatedly un
 When any thread finishes matching it will display it's unique ID so the user can see the order the threads completed.
 
 ## How To Run
-1. Download the source cpp file
+1. Download the source cpp file (Simple Threading Example.cpp)
 2. Compile with `g++ -std=c++11 -o filename source.cpp -pthread` where filename is the desired executable filename and source.cpp is the name of the source code file.
 3. Run with `./filename` in terminal.
 
